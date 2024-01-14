@@ -2,6 +2,8 @@
 # DNS Server
 
 A basic DNS server that can perform both **iterative** and **recursive** resolution.
+Can help cache dns requests in an enterprise network , therefore optimizing internet performance for frequently visited websites.
+
 
 # Requirements:
 
@@ -12,9 +14,7 @@ A basic DNS server that can perform both **iterative** and **recursive** resolut
 
 The goal will be to maintain the DNS structure for queries in a static file such that you can examine what has been cached and requested from clients. Code will be tested as a stand-alone DNS server (meaning that it will just be turned on with any configuration you require (which will be documented) and used in place of the default DNS server.  
 
-# Difficulty
 
-This difficulty of this depends on your approach but is more involved than the IMCP/Scapy challenges.  The DNS server does not have to be complete or robust, but should answer and cache basic queries and responses (meaning that it could be used/functional for most basic operations). This can be easily written in Python as there are numerous libraries that can help with this.   The challenge is dealing with caching and forwarding requests of records.  You will need to review the details of the requirements for DNS but will give you a strong understanding of how this works.  You are also welcome to build in Java (more difficult).  
 
 
 
